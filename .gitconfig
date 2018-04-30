@@ -1,0 +1,28 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Nuno Polonia
+#	email = nuno.polonia@financetechnology.com
+[user]
+	name = Nuno Polonia
+	email = nuno.polonia@financetechnology.com
+[core]
+	editor = vim
+	pager = less -FRSX
+	whitespace = blank-at-eol,blank-at-eof,trailing-space,space-before-tab,indent-with-non-tab
+[alias]
+	l = log
+	lg = log --graph --decorate --pretty=oneline --abbrev-commit --all --date-order
+	b = branch
+	d = diff
+	dc = diff --cached
+	st = status -sb
+	s = status -s
+	ci = commit
+	cian = commit --amend --no-edit
+	co = checkout
+	cp = cherry-pick	
+	p = pull
+	pr = pull --rebase
+	pff = pull --ff-only
+	pnff = pull --no-ff
