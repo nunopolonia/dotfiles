@@ -1,8 +1,3 @@
-# This is Git's per-user configuration file.
-[user]
-# Please adapt and uncomment the following lines:
-#       name = Nuno Polonia
-#       email = nuno.polonia@financetechnology.com
 [user]
         name = Nuno Polonia
         email = nuno.polonia@financetechnology.com
@@ -17,7 +12,7 @@
         d = diff
         dc = diff --cached
         st = status -sb
-        s = status -s
+        s = status
         ci = commit
         cian = commit --amend --no-edit
         co = checkout
@@ -27,5 +22,6 @@
         pr = pull --rebase
         pff = pull --ff-only
         pnff = pull --no-ff
+        ps = push
 [push]
         default = simple
