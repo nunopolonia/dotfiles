@@ -4,10 +4,12 @@
 [core]
         editor = vim
         pager = less -FRSX
-        whitespace = blank-at-eol,blank-at-eof,trailing-space,space-before-tab,indent-with-non-tab
+        whitespace = blank-at-eol,blank-at-eof,trailing-space,space-before-tab,
+indent-with-non-tab
 [alias]
         l = log
-        lg = log --graph --decorate --pretty=oneline --abbrev-commit --all --date-order
+        lg = log --graph --decorate --pretty=oneline --abbrev-commit --all --da
+te-order
         b = branch
         d = diff
         dc = diff --cached
@@ -19,9 +21,11 @@
         nb = checkout -b
         cp = cherry-pick
         p = pull
+        po = pull origin
         pr = pull --rebase
         pff = pull --ff-only
         pnff = pull --no-ff
         ps = push
+        pso = push origin
 [push]
         default = simple
