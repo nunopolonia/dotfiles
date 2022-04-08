@@ -1,16 +1,20 @@
 [user]
         name = Nuno Polonia
-        email = nuno.polonia@financetechnology.com
+	email = nunopolonia@gmail.com
 [core]
         editor = vim
         pager = less -FRSX
         whitespace = blank-at-eol,blank-at-eof,trailing-space,space-before-tab,
 indent-with-non-tab
+	excludesfile = /Users/nunopolonia/.gitignore
 [alias]
+        a = add
+	aa = add .
         l = log
-        lg = log --graph --decorate --pretty=oneline --abbrev-commit --all --da
-te-order
+        lg = log --graph --decorate --pretty=oneline --abbrev-commit --all --date-order
         b = branch
+        bd = branch -d
+        bD = branch -D
         d = diff
         dc = diff --cached
         st = status -sb
@@ -27,5 +31,9 @@ te-order
         pnff = pull --no-ff
         ps = push
         pso = push origin
+        psof = push origin --force
+	rba = rebase --abort
+        rbc = rebase --continue
+        rlc = reset --soft HEAD~1
 [push]
         default = simple
